@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-family:sans-serif ;
+}
+
+/*header*/
+.button {
+    font-size: 12px;
+    line-height: 1;
+    color: white ;
+    background-color:#3172b9 ;
+    padding: 15px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.header-container {
+display: flex;
+align-items: center;
+height: 100%;
+}
+
+
+.logo {
+    margin-right: auto;
+}
+
+.nav-list {
+    display: flex;
+
+}
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header {
+    height: 110px;
+}
+
+.header-btn {
+margin-left: 80px;
+}
+
+/*hero-container*/
+
+.hero-container {
+    padding-top: 120px;
+    overflow: 130px ;
+    margin-left: 160px;
+}
+
+.hero-container {
+    max-width:50%;
+}
+.section-hero-heading {
+margin-bottom: 20px;
+}
+
+.section-hero-description {
+    margin-bottom: 30px;
+}
+
+.section-hero-brn {
+    margin-top: 10px;
+}
+
+
+/*section-do*/
+
+.section-do {
+    padding-top: 140px ;
+    padding-bottom: 100px;
+}
+
+.section-descriotion {
+    margin-top: 25px;
+}
+
+.section-do-list {
+    margin-top: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-do-list {
+    display: flex;
+    margin-top: 50px;
+}
+
+.section-do-item {
+    flex: 1 1 25%;
+    outline: 1px solid black;
+}
+
+
+.section-do-item:not(:last-child) {
+margin-right: 30px;
+}
+
+/*section-client*/
+
+.section-clients-list {
+    display: flex;
+}
+
+.section-clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.section-clients-item {
+    flex: 1 1 33%;
+    outline: 1px solid black;
+    padding: 30px 40px 30px 30px;
+}
+
+.section-client-user {
+    padding-top: 30px; display: flex;
+}
+
+.section-clients-avatar{
+    padding-right: 10px;
+}
+
+.section-clients-user-description {
+    padding-top: 5px;
+}
+
+/*section-contacts*/
+
+.section-contacts-list {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+
+
+.contacts-text {
+    flex-wrap: wrap;
+}
+
+.section-contacts-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.section-contacts-info {
+    margin-top: 40px;
+}
+
+.section-heading-contacts {
+    margin-top: 230px;
+}
+
+/*footer*/
+.footer {
+    margin-top: 130px;
+    max-height: 120px;
+}
+
+
+.footer-flex-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.footer-nav-list {
+    display: flex;
+}
+
+.footer-left {
+    margin-right: 50px;
+}
+
+.footer-copyrights {
+    padding-left: 10px;
+}
+.footer-left>.footer-copyrights {
+    align-items: center;
+}
+
+.footer-nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.footer-icon-list {
+    display: flex;
+}
+
+.footer-icon-item:not(:last-child) {
+margin-right: 20px;
+}
